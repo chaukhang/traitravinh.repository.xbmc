@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="plugin.video.anhtrang_org"
+  version="0.0.5"
+  name="[COLOR ffffff00]Anh[/COLOR][COLOR ffffa500]Trang[/COLOR][COLOR ffffffff].ORG[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="2.7.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="anhtrang.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch movies</summary>
+    <description>Watch movies</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.baobongda"
+  version="1.0.1"
+  name="BaoBongDa"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Soccer highlight from baobondaplus.vn</summary>
+    <description>Watch soccer highlight (Vietnamese)Videos. Not working</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.bongdatructuyen"
+  version="1.0.3"
+  name="[COLOR FFFFFFFF]bongda[/COLOR][COLOR FF32CD32]tructuyen[/COLOR][COLOR FFFFFFFF].vn[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="bongdatructuyen.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Soccer Live/Highlights using SopCast, AceStream. [COLOR red]Require[/COLOR] [COLOR FFFFA500]P2P-Streams addons[/COLOR] [COLOR red]to play streams[/COLOR]</summary>
+    <description>Watch Soccer Live/Highlights Videos. Need p2p-streams addon installed and configured to work</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.chiasenhac"
+  version="0.0.2"
+  name="[COLOR ff696969]C[/COLOR][COLOR ffff0000]S[/COLOR][COLOR ff696969]N[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="chiasenhac.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Chiasenhac</summary>
+    <description>Search and play/download music on chiasenhac.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.HTVonline"
+  version="0.0.6"
+  name="[COLOR ffff0000]H[/COLOR][COLOR ff32cd32]T[/COLOR][COLOR ff0000ff]V[/COLOR][COLOR ffffffff]online[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="htvonline.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch liveTV</summary>
+    <description>Watch liveTV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.moviHD"
+  version="0.0.7"
+  name="moviHD.net"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="script.module.requests" version="2.4.3" />
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="movihd.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch Movies on movihd.net</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.nhaccuatui"
+  version="1.1.3"
+  name="[COLOR FF00BFFF]NhacCuaTui[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="nhaccuatui.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NhacCuaTui</summary>
+    <description>Search and play/download music on nhaccuatui.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.ourmatch_net"
+  version="1.0.6"
+  name="[COLOR white]Our[/COLOR][COLOR FFF4A460]Match[/COLOR][COLOR white].net[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="ourmatch.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Soccer Highlights</summary>
+    <description>Watch Soccer Highlights Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phatam"
+  version="1.0.2"
+  name="[COLOR white]phatam[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="phatam.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch KinhPhat</summary>
+    <description>A-Di-Da-Phat</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phimtructuyenhd"
+  version="1.0.2"
+  name="[COLOR red]Phim[/COLOR][COLOR FF0000FF]Truc[/COLOR][COLOR FF1E90FF]Tuyen[/COLOR][COLOR FFDAA520]HD[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="phimtructuyenhd.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch (Vietnamese)Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phimvang"
+  version="1.1.1"
+  name="[COLOR white]PHIM[/COLOR][COLOR FFFFD700]VANG[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+    <import addon="script.module.requests" version="2.4.3" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="phimvang.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch Movies on phimvang.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phimxixam"
+  version="0.0.3"
+  name="[COLOR ffff8c00]X[/COLOR][COLOR ffffffff]i[/COLOR][COLOR ffff8c00]X[/COLOR][COLOR ffffffff]am[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="phimxixam.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch movies on phim.xixam.com</summary>
+    <description>Watch movies on phim.xixam.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.superphim"
+  version="1.0.3"
+  name="superphim"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="superphim.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch (Vietnamese)Videos on superphim.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.vkool"
+  version="0.0.5"
+  name="vkool.net"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+    <import addon="script.module.requests" version="2.4.3" />
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="vkool.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch Movies on vkool.net</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.xemphimso_com"
+  version="1.0.0"
+  name="xemphimso.com"
+  provider-name="traitravinh">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="xemphimso_com.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch (Vietnamese)Videos. Not working!!!!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.traitravinh" name="TraiTraVinh's Testing Repo" version="1.0" provider-name="traitravinh">
+	<extension point="xbmc.addon.repository" name="TraiTraVinh's Testing Repo">
+		<info compressed="false">https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/addons.xml</info>
+		<checksum>https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Testing repo</summary>
+		<description>Testing repo</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
